@@ -1,4 +1,4 @@
-#!./venv/Scripts/python
+#!./venv_linux/bin/python
 
 from game.flappy import main
 
