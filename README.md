@@ -1,28 +1,18 @@
-FlappyBirdClone
-===============
+FlappyBirdClone Workshop
+========================
 
-A Flappy Bird Clone made using [python-pygame][1]
+NeurotechUofT EMG Workshop Game
 
-How-to
-------
+Based on a FlappyBirdClone.
 
-1. Install Python 2.7.X or 3.5.x from [here](https://www.python.org/download/releases/)
+Requirements
+------------
+ * [Python 3.6](https://www.python.org/downloads/)
 
-2. Install PyGame 1.9.X from [here](http://www.pygame.org/download.shtml)
-
-3. Clone this repository: `git clone https://github.com/sourabhv/FlappyBirdClone.git` or click `Download ZIP` in right panel and extract it.
-
-4. Run `python flappy.py` from the repo's directory
-
-5. use <kbd>&uarr;</kbd> or <kbd>Space</kbd> key to play and <kbd>Esc</kbd> to close the game.
-
-  (Note: Install pyGame for same version python as above)
-
-  (For x64 windows, get exe [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame))
-
-ScreenShot
-----------
-
-![Flappy Bird](screenshot1.png)
-
-[1]: http://www.pygame.org
+Instructions
+------------
+ 1. Clone this repository with `git clone`.
+ 2. Run the game with `start.cmd` or `start.sh` depending if you're using Windows or Linux.
+	Initially, you can press any key to play the game.
+ 3. Look at `input.py` and read the instructions at the top. You will need to use Python to
+	convert EMG data into a True or False value.
